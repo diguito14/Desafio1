@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+#titulo{
+    font-family: fantasy;
+    color: seashell;
+    margin-left: 7%;
+    
+}
+
+#subtitulo{
+    font-family: fantasy;
+    color: seashell;
+    margin-left: 10%;
+}
+
+.bg{
+    background-image: url("../DESAFIO1/imagens/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+
+
+fieldset{
+    border: 0;
+}
+body{
+    font-family: apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: aliceblue;
+    font-size: 1em;
+    margin-left: 36%;
+    margin-top: 2%;
+    justify-content: center;
+
+
+    
+
+}
+input, select, textarea, button{
+    color:seashell
+    border-radius: 5px;
+    font-size: 1.8em;
+    font-family: apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.grupo:before, .grupo:after {
+    display: table;
+}
+.grupo:after {
+    clear: both;
+}
+
+.campo {
+    margin-bottom: 1em;
+}
+.campo label{
+    margin-bottom: 0.2em;
+    color: seashell;
+    display: block;
+    font-size: 1.2em;
+    
+}
+
+fieldset.grupo .campo{
+    float: left;
+    margin-right: 1em;
+    
+}
+.check {
+    font-size: 1.2em;
+}
+
+.campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea{
+    padding: 0.2em;
+    border: 1px solid cornsilk;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    display: block;
+    border-radius: 10px;
+    
+}
+
+
+.campo select option{
+    padding-right: 1em;
+    
+}
+.campo input:focus, .campo select:focus, .campo textarea:focus{
+    background: #E0E0F8;
+    
+}
+
+
+
+
+
+.botao {
+    font-size: 1.2em;
+    background: rgb(255, 145, 141);
+    border: 0;
+    margin-bottom: 1em;
+    color: #ffffff;
+    padding: 0.2em 0.6em;
+    box-shadow:2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    position: absolute;
+    top: 68%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+
+}
+
+
+.botao:hover {
+    background-color: rgb(148, 10, 5);
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+    
+}
+
+#check {
+    display: inline-block;
+}
+.botao, select{
+    cursor: pointer;
+}
+
+main.container {
+    background: rgb(141, 139, 139);
+    max-width: 350px;
+    min-height: 40vh;
+    padding: 4rem;
+    box-shadow: 5px 5px 5px 15px rgba(0,0,0,0.2);
+    border-radius: 8px;
+
+}
+
+.texto2 {
+font-size: 53px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+color: rgb(199, 13, 13);
+align-content: center;
+}
+
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.rodape {
+    margin-left: 50em;
+    margin-top: -37em;
+    font-size: 18px;
+     list-style: none;
+    
+    
+}
+
+.rodape1:hover{
+    background-color: rgb(148, 10, 5);
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+
+}
+.rodape2:hover{
+    background-color: rgb(148, 10, 5);
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+
+}
+.rodape3:hover{
+    background-color: rgb(148, 10, 5);
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+
+}
+.rodape, select{
+    cursor: pointer;
+}
